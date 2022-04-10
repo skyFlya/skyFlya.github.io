@@ -2,25 +2,25 @@
 <rss version="2.0">
     <channel>
         <title>Stay hungry , Stay foolish</title>
-        <link>https://onion99.github.io</link>
+        <link>https://skyFlya.github.io</link>
         <description>巴拉巴拉</description>
         <language>zh-Hans</language>
         <pubDate>Sun, 13 Mar 2022 17:49:49 +0800</pubDate>
         <lastBuildDate>Sun, 13 Mar 2022 17:49:49 +0800</lastBuildDate>
-        <category>源码解析</category>
         <category>AOP</category>
+        <category>源码解析</category>
         <category>性能优化</category>
         <category>并发</category>
-        <category>图形绘制</category>
         <category>计算机基础</category>
         <category>安全</category>
+        <category>图形绘制</category>
         <category>网络</category>
         <category>理论学习</category>
         <category>黑科技</category>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/13/XJTlmsU39F0XEnje/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/13/XJTlmsU39F0XEnje/</guid>
             <title>Android - 多渠道打包</title>
-            <link>https://onion99.github.io/2022/03/13/XJTlmsU39F0XEnje/</link>
+            <link>https://skyflya.github.io/2022/03/13/XJTlmsU39F0XEnje/</link>
             <pubDate>Sun, 13 Mar 2022 17:49:49 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;本质就是给APK添加特定的标签信息&lt;/p&gt;
@@ -180,9 +180,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/12/Kt2Wobik8Fv12ZRY/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/12/Kt2Wobik8Fv12ZRY/</guid>
             <title>Android AOP - ASM+Transform</title>
-            <link>https://onion99.github.io/2022/03/12/Kt2Wobik8Fv12ZRY/</link>
+            <link>https://skyflya.github.io/2022/03/12/Kt2Wobik8Fv12ZRY/</link>
             <category>AOP</category>
             <pubDate>Sat, 12 Mar 2022 17:45:36 +0800</pubDate>
             <description><![CDATA[ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
@@ -297,9 +297,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/11/3Bhw0wOwpYCE6F8V/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/11/3Bhw0wOwpYCE6F8V/</guid>
             <title>Android AOP - AspectJ</title>
-            <link>https://onion99.github.io/2022/03/11/3Bhw0wOwpYCE6F8V/</link>
+            <link>https://skyflya.github.io/2022/03/11/3Bhw0wOwpYCE6F8V/</link>
             <category>AOP</category>
             <pubDate>Fri, 11 Mar 2022 17:40:38 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -429,9 +429,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/11/qyGiQE7cKbQOfEKm/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/11/qyGiQE7cKbQOfEKm/</guid>
             <title>Android AOP - JDK动态代理</title>
-            <link>https://onion99.github.io/2022/03/11/qyGiQE7cKbQOfEKm/</link>
+            <link>https://skyflya.github.io/2022/03/11/qyGiQE7cKbQOfEKm/</link>
             <category>AOP</category>
             <pubDate>Fri, 11 Mar 2022 05:25:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;JDK的动态代理底层是通过Java反射机制实现的，并且需要目标对象继承自一个接口才能生成它的代理类&lt;/p&gt;
@@ -465,9 +465,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/10/9rnRdFk7xf4rnvds/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/10/9rnRdFk7xf4rnvds/</guid>
             <title>Android AOP - 概论</title>
-            <link>https://onion99.github.io/2022/03/10/9rnRdFk7xf4rnvds/</link>
+            <link>https://skyflya.github.io/2022/03/10/9rnRdFk7xf4rnvds/</link>
             <category>AOP</category>
             <pubDate>Thu, 10 Mar 2022 17:26:27 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;编程架构思想&#34;&gt;编程架构思想&lt;a title=&#34;#编程架构思想&#34; href=&#34;#编程架构思想&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -559,9 +559,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/09/wkROkqAosRBXidma/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/09/wkROkqAosRBXidma/</guid>
             <title>Android-动态化方案探索</title>
-            <link>https://onion99.github.io/2022/03/09/wkROkqAosRBXidma/</link>
+            <link>https://skyflya.github.io/2022/03/09/wkROkqAosRBXidma/</link>
             <pubDate>Wed, 09 Mar 2022 17:21:31 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/80/v2-7179de6b1bfe62fa7aa3c93d5948509a_720w.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
 &lt;p&gt;开源方案：&lt;br&gt;
@@ -570,9 +570,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/08/r2WB7zoGFwDaiwmB/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/08/r2WB7zoGFwDaiwmB/</guid>
             <title>Android - 组件化</title>
-            <link>https://onion99.github.io/2022/03/08/r2WB7zoGFwDaiwmB/</link>
+            <link>https://skyflya.github.io/2022/03/08/r2WB7zoGFwDaiwmB/</link>
             <pubDate>Tue, 08 Mar 2022 17:17:11 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;组件是可拆除的就表示组件与组件之间是不会耦合的。 组件化就是需要去拆分出组件和实现组件之间通信的过程&lt;/p&gt;
@@ -597,9 +597,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/08/yriIudTcpjYyMHli/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/08/yriIudTcpjYyMHli/</guid>
             <title>Android黑科技 - 插件化</title>
-            <link>https://onion99.github.io/2022/03/08/yriIudTcpjYyMHli/</link>
+            <link>https://skyflya.github.io/2022/03/08/yriIudTcpjYyMHli/</link>
             <category>黑科技</category>
             <pubDate>Tue, 08 Mar 2022 06:46:11 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;插件化技术最初源于免安装运行apk的想法，这个免安装的apk可以理解为插件。支持插件化的app可以在运行时加载和运行插件，这样便可以将app中一些不常用的功能模块做成插件，一方面减小了安装包的大小，另一方面可以实现app功能的动态扩展。&lt;/p&gt;
@@ -672,9 +672,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/08/phzbEh3JEzAC0XwD/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/08/phzbEh3JEzAC0XwD/</guid>
             <title>Android黑科技 - 热修复</title>
-            <link>https://onion99.github.io/2022/03/08/phzbEh3JEzAC0XwD/</link>
+            <link>https://skyflya.github.io/2022/03/08/phzbEh3JEzAC0XwD/</link>
             <category>黑科技</category>
             <pubDate>Tue, 08 Mar 2022 06:38:05 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -772,9 +772,9 @@ build.gradle.kts&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/08/ukYPIjylHjywfytF/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/08/ukYPIjylHjywfytF/</guid>
             <title>Android黑科技 - 热修复和插件化基础</title>
-            <link>https://onion99.github.io/2022/03/08/ukYPIjylHjywfytF/</link>
+            <link>https://skyflya.github.io/2022/03/08/ukYPIjylHjywfytF/</link>
             <category>黑科技</category>
             <pubDate>Tue, 08 Mar 2022 06:31:41 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;dalvik和-art&#34;&gt;Dalvik和 ART&lt;a title=&#34;#dalvik和-art&#34; href=&#34;#dalvik和-art&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -827,9 +827,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/03/p2ie22dC9NcVwpEH/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/03/p2ie22dC9NcVwpEH/</guid>
             <title>源码学习 - LiveData</title>
-            <link>https://onion99.github.io/2022/03/03/p2ie22dC9NcVwpEH/</link>
+            <link>https://skyflya.github.io/2022/03/03/p2ie22dC9NcVwpEH/</link>
             <category>源码解析</category>
             <pubDate>Thu, 03 Mar 2022 01:47:39 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -907,9 +907,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2022/03/02/uVaapTCHAYrYDaHP/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2022/03/02/uVaapTCHAYrYDaHP/</guid>
             <title>源码学习 - Lifecycle</title>
-            <link>https://onion99.github.io/2022/03/02/uVaapTCHAYrYDaHP/</link>
+            <link>https://skyflya.github.io/2022/03/02/uVaapTCHAYrYDaHP/</link>
             <category>源码解析</category>
             <pubDate>Wed, 02 Mar 2022 01:33:23 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -959,9 +959,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/30/9S5c1rplpdSAbIxR/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/30/9S5c1rplpdSAbIxR/</guid>
             <title>源码学习 - ViewModel</title>
-            <link>https://onion99.github.io/2021/11/30/9S5c1rplpdSAbIxR/</link>
+            <link>https://skyflya.github.io/2021/11/30/9S5c1rplpdSAbIxR/</link>
             <category>源码解析</category>
             <pubDate>Tue, 30 Nov 2021 07:30:53 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -1041,9 +1041,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/30/4diQitvVwGPnicN5/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/30/4diQitvVwGPnicN5/</guid>
             <title>源码学习 - HashMap</title>
-            <link>https://onion99.github.io/2021/11/30/4diQitvVwGPnicN5/</link>
+            <link>https://skyflya.github.io/2021/11/30/4diQitvVwGPnicN5/</link>
             <category>源码解析</category>
             <pubDate>Tue, 30 Nov 2021 07:28:47 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -1071,9 +1071,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/30/hu0861X6Ltf32fYt/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/30/hu0861X6Ltf32fYt/</guid>
             <title>源码学习 - DataBinding</title>
-            <link>https://onion99.github.io/2021/11/30/hu0861X6Ltf32fYt/</link>
+            <link>https://skyflya.github.io/2021/11/30/hu0861X6Ltf32fYt/</link>
             <category>源码解析</category>
             <pubDate>Tue, 30 Nov 2021 07:27:07 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;sameple&#34;&gt;Sameple&lt;a title=&#34;#sameple&#34; href=&#34;#sameple&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -1109,9 +1109,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/08/MpHTUCP7P1OgtydO/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/08/MpHTUCP7P1OgtydO/</guid>
             <title>Java并发(7) - ThreadLocal</title>
-            <link>https://onion99.github.io/2021/11/08/MpHTUCP7P1OgtydO/</link>
+            <link>https://skyflya.github.io/2021/11/08/MpHTUCP7P1OgtydO/</link>
             <category>并发</category>
             <pubDate>Mon, 08 Nov 2021 03:06:09 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -1149,9 +1149,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/08/oizxmTtLdVsaXZrZ/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/08/oizxmTtLdVsaXZrZ/</guid>
             <title>Java并发(6) - 线程池</title>
-            <link>https://onion99.github.io/2021/11/08/oizxmTtLdVsaXZrZ/</link>
+            <link>https://skyflya.github.io/2021/11/08/oizxmTtLdVsaXZrZ/</link>
             <category>并发</category>
             <pubDate>Mon, 08 Nov 2021 03:05:17 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;线程池对比new Thread()&lt;/p&gt;
@@ -1316,9 +1316,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/08/WkWqwHwU8wgNL4cd/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/08/WkWqwHwU8wgNL4cd/</guid>
             <title>Java并发(5) - 线程协作</title>
-            <link>https://onion99.github.io/2021/11/08/WkWqwHwU8wgNL4cd/</link>
+            <link>https://skyflya.github.io/2021/11/08/WkWqwHwU8wgNL4cd/</link>
             <category>并发</category>
             <pubDate>Mon, 08 Nov 2021 03:04:05 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;线程状态&#34;&gt;线程状态&lt;a title=&#34;#线程状态&#34; href=&#34;#线程状态&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -1351,9 +1351,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/08/qX2v7eB61IheaBrH/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/08/qX2v7eB61IheaBrH/</guid>
             <title>Java并发(4) - CAS</title>
-            <link>https://onion99.github.io/2021/11/08/qX2v7eB61IheaBrH/</link>
+            <link>https://skyflya.github.io/2021/11/08/qX2v7eB61IheaBrH/</link>
             <category>并发</category>
             <pubDate>Mon, 08 Nov 2021 02:59:57 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;锁机制问题:&lt;/p&gt;
@@ -1404,9 +1404,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/08/HcJi8WdXZ8E3DBWS/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/08/HcJi8WdXZ8E3DBWS/</guid>
             <title>Java并发(3) - Lock</title>
-            <link>https://onion99.github.io/2021/11/08/HcJi8WdXZ8E3DBWS/</link>
+            <link>https://skyflya.github.io/2021/11/08/HcJi8WdXZ8E3DBWS/</link>
             <category>并发</category>
             <pubDate>Mon, 08 Nov 2021 02:59:09 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -1578,9 +1578,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;private&lt;/span&gt; ReentrantReadWriteLock lock = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; ReentrantReadWriteLock();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 读读共享情况,输出可以发现两个线程几乎可以同时运行&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;try&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;try&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            lock.readLock().lock();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;获得读锁&amp;quot;&lt;/span&gt; + Thread.currentThread().getName()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    + &lt;span class=&#34;string&#34;&gt;&amp;quot; &amp;quot;&lt;/span&gt; + System.currentTimeMillis());&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            Thread.sleep(&lt;span class=&#34;number&#34;&gt;10000&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125; &lt;span class=&#34;keyword&#34;&gt;finally&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            lock.readLock().unlock();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125; &lt;span class=&#34;keyword&#34;&gt;catch&lt;/span&gt; (InterruptedException e) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;// TODO Auto-generated catch block&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.printStackTrace();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/08/FEETAEwJ336KYqim/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/08/FEETAEwJ336KYqim/</guid>
             <title>Java并发(2) - synchronize</title>
-            <link>https://onion99.github.io/2021/11/08/FEETAEwJ336KYqim/</link>
+            <link>https://skyflya.github.io/2021/11/08/FEETAEwJ336KYqim/</link>
             <category>并发</category>
             <pubDate>Mon, 08 Nov 2021 02:55:09 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -1661,9 +1661,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/07/VqykJCDZZcenZo3O/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/07/VqykJCDZZcenZo3O/</guid>
             <title>Java并发(1) - volatile</title>
-            <link>https://onion99.github.io/2021/11/07/VqykJCDZZcenZo3O/</link>
+            <link>https://skyflya.github.io/2021/11/07/VqykJCDZZcenZo3O/</link>
             <category>并发</category>
             <pubDate>Sun, 07 Nov 2021 23:50:26 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;java内存模型&#34;&gt;JAVA内存模型&lt;a title=&#34;#java内存模型&#34; href=&#34;#java内存模型&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -1730,9 +1730,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/cNDSpE5p4avS2tOi/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/cNDSpE5p4avS2tOi/</guid>
             <title>自定义View(11) - 滚动速度和滚动计算</title>
-            <link>https://onion99.github.io/2021/11/04/cNDSpE5p4avS2tOi/</link>
+            <link>https://skyflya.github.io/2021/11/04/cNDSpE5p4avS2tOi/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 06:09:36 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;velocitytracker&#34;&gt;VelocityTracker&lt;a title=&#34;#velocitytracker&#34; href=&#34;#velocitytracker&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -1781,9 +1781,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/dY7a31QepeVitGkX/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/dY7a31QepeVitGkX/</guid>
             <title>自定义View(10) - GestureDetector</title>
-            <link>https://onion99.github.io/2021/11/04/dY7a31QepeVitGkX/</link>
+            <link>https://skyflya.github.io/2021/11/04/dY7a31QepeVitGkX/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 06:08:39 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;gesturedetector&#34;&gt;GestureDetector&lt;a title=&#34;#gesturedetector&#34; href=&#34;#gesturedetector&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -1822,9 +1822,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/z3aQsRLVolBbFVsl/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/z3aQsRLVolBbFVsl/</guid>
             <title>自定义View(9) - 事件分发</title>
-            <link>https://onion99.github.io/2021/11/04/z3aQsRLVolBbFVsl/</link>
+            <link>https://skyflya.github.io/2021/11/04/z3aQsRLVolBbFVsl/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 06:07:31 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -1895,9 +1895,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/p4CRfuQemJ4TOlAs/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/p4CRfuQemJ4TOlAs/</guid>
             <title>自定义View(8) - draw 绘制过程</title>
-            <link>https://onion99.github.io/2021/11/04/p4CRfuQemJ4TOlAs/</link>
+            <link>https://skyflya.github.io/2021/11/04/p4CRfuQemJ4TOlAs/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 06:03:38 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -1970,9 +1970,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/ZyOr4iLxJj7nAQxR/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/ZyOr4iLxJj7nAQxR/</guid>
             <title>自定义View(7) - layout 布局过程</title>
-            <link>https://onion99.github.io/2021/11/04/ZyOr4iLxJj7nAQxR/</link>
+            <link>https://skyflya.github.io/2021/11/04/ZyOr4iLxJj7nAQxR/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 06:02:46 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;https://s2.ax1x.com/2019/12/06/QJQEcR.jpg&#34; alt=&#34;viewasds&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
@@ -2006,9 +2006,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/Qj9f1VMJJowv5Lfb/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/Qj9f1VMJJowv5Lfb/</guid>
             <title>自定义View(6) - measure 测量过程</title>
-            <link>https://onion99.github.io/2021/11/04/Qj9f1VMJJowv5Lfb/</link>
+            <link>https://skyflya.github.io/2021/11/04/Qj9f1VMJJowv5Lfb/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 06:00:58 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;https://s2.ax1x.com/2019/12/06/QJQEcR.jpg&#34; alt=&#34;QJQEcR.jpg&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
@@ -2106,9 +2106,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/SA664RldODNgeCrz/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/SA664RldODNgeCrz/</guid>
             <title>自定义View(5) - 动画</title>
-            <link>https://onion99.github.io/2021/11/04/SA664RldODNgeCrz/</link>
+            <link>https://skyflya.github.io/2021/11/04/SA664RldODNgeCrz/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 05:59:44 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -2131,9 +2131,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/ZOnr24kULe7cQgsc/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/ZOnr24kULe7cQgsc/</guid>
             <title>自定义View(4) - Canvas相关</title>
-            <link>https://onion99.github.io/2021/11/04/ZOnr24kULe7cQgsc/</link>
+            <link>https://skyflya.github.io/2021/11/04/ZOnr24kULe7cQgsc/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 05:58:53 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;范围裁切&#34;&gt;范围裁切&lt;a title=&#34;#范围裁切&#34; href=&#34;#范围裁切&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -2191,9 +2191,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/04/VjI1fQxy8MSFqUqm/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/04/VjI1fQxy8MSFqUqm/</guid>
             <title>自定义View(3) - Text相关</title>
-            <link>https://onion99.github.io/2021/11/04/VjI1fQxy8MSFqUqm/</link>
+            <link>https://skyflya.github.io/2021/11/04/VjI1fQxy8MSFqUqm/</link>
             <category>图形绘制</category>
             <pubDate>Thu, 04 Nov 2021 05:57:48 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;文字绘制(canvas)&#34;&gt;文字绘制(Canvas)&lt;a title=&#34;#文字绘制(canvas)&#34; href=&#34;#文字绘制(canvas)&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -2273,9 +2273,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/02/weRgrdLnBqIUWkcH/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/02/weRgrdLnBqIUWkcH/</guid>
             <title>自定义View(2) - Paint相关</title>
-            <link>https://onion99.github.io/2021/11/02/weRgrdLnBqIUWkcH/</link>
+            <link>https://skyflya.github.io/2021/11/02/weRgrdLnBqIUWkcH/</link>
             <category>图形绘制</category>
             <pubDate>Tue, 02 Nov 2021 06:19:10 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;color&#34;&gt;Color&lt;a title=&#34;#color&#34; href=&#34;#color&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -2422,9 +2422,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/02/K0uh0dFU4QBtZ8Wm/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/02/K0uh0dFU4QBtZ8Wm/</guid>
             <title>自定义View(1) - 基本绘制</title>
-            <link>https://onion99.github.io/2021/11/02/K0uh0dFU4QBtZ8Wm/</link>
+            <link>https://skyflya.github.io/2021/11/02/K0uh0dFU4QBtZ8Wm/</link>
             <category>图形绘制</category>
             <pubDate>Tue, 02 Nov 2021 06:17:37 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -2516,9 +2516,9 @@ ART 预先编译机制，在安装时对 dex 文件执行dexopt优化之后再�
 &lt;/table&gt;&lt;/div&gt;&lt;/div&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/nOSSxZ51uxl6hUq8/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/nOSSxZ51uxl6hUq8/</guid>
             <title>Java 理论 - JVM</title>
-            <link>https://onion99.github.io/2021/11/01/nOSSxZ51uxl6hUq8/</link>
+            <link>https://skyflya.github.io/2021/11/01/nOSSxZ51uxl6hUq8/</link>
             <category>理论学习</category>
             <pubDate>Mon, 01 Nov 2021 05:33:20 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;jvm&#34;&gt;JVM&lt;a title=&#34;#jvm&#34; href=&#34;#jvm&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -2554,9 +2554,9 @@ JDK:java开发工具包&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/MgnT9VQ3PhWZOJAq/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/MgnT9VQ3PhWZOJAq/</guid>
             <title>CS理论 - 编码与加密</title>
-            <link>https://onion99.github.io/2021/11/01/MgnT9VQ3PhWZOJAq/</link>
+            <link>https://skyflya.github.io/2021/11/01/MgnT9VQ3PhWZOJAq/</link>
             <category>计算机基础</category>
             <category>安全</category>
             <pubDate>Mon, 01 Nov 2021 05:32:00 +0800</pubDate>
@@ -2677,9 +2677,9 @@ JDK:java开发工具包&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/Qqq7oSBqBc2Zgbrx/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/Qqq7oSBqBc2Zgbrx/</guid>
             <title>CS理论 - 计算机网络</title>
-            <link>https://onion99.github.io/2021/11/01/Qqq7oSBqBc2Zgbrx/</link>
+            <link>https://skyflya.github.io/2021/11/01/Qqq7oSBqBc2Zgbrx/</link>
             <category>计算机基础</category>
             <category>网络</category>
             <pubDate>Mon, 01 Nov 2021 05:31:00 +0800</pubDate>
@@ -2880,9 +2880,9 @@ IP：Internet Protocol 网际协议, 用于计算机之间的通信&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/15jfHwStpctgCeeA/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/15jfHwStpctgCeeA/</guid>
             <title>源码学习 - Glide</title>
-            <link>https://onion99.github.io/2021/11/01/15jfHwStpctgCeeA/</link>
+            <link>https://skyflya.github.io/2021/11/01/15jfHwStpctgCeeA/</link>
             <category>源码解析</category>
             <pubDate>Mon, 01 Nov 2021 05:29:17 +0800</pubDate>
             <description><![CDATA[ &lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Glide.with(fragment)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    .load(myUrl)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    .into(imageView);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -3028,9 +3028,9 @@ Engine负责执行图片加载和管理活动资源和缓存资源。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/4SVquTFcR8Wyv4GV/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/4SVquTFcR8Wyv4GV/</guid>
             <title>源码学习 - OkHttp</title>
-            <link>https://onion99.github.io/2021/11/01/4SVquTFcR8Wyv4GV/</link>
+            <link>https://skyflya.github.io/2021/11/01/4SVquTFcR8Wyv4GV/</link>
             <category>源码解析</category>
             <pubDate>Mon, 01 Nov 2021 05:28:18 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -3114,9 +3114,9 @@ Chain 的唯一实现为 RealInterceptorChain（下文简称 RIC），RIC 可以
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/5FIszA6Ut2OHE8Sg/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/5FIszA6Ut2OHE8Sg/</guid>
             <title>安卓优化 - 布局优化</title>
-            <link>https://onion99.github.io/2021/11/01/5FIszA6Ut2OHE8Sg/</link>
+            <link>https://skyflya.github.io/2021/11/01/5FIszA6Ut2OHE8Sg/</link>
             <category>性能优化</category>
             <pubDate>Mon, 01 Nov 2021 04:50:14 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;布局耗时统计&#34;&gt;布局耗时统计&lt;a title=&#34;#布局耗时统计&#34; href=&#34;#布局耗时统计&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -3189,9 +3189,9 @@ Chain 的唯一实现为 RealInterceptorChain（下文简称 RIC），RIC 可以
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/6JN9JxpnRSjVeWry/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/6JN9JxpnRSjVeWry/</guid>
             <title>安卓优化 - 线程优化</title>
-            <link>https://onion99.github.io/2021/11/01/6JN9JxpnRSjVeWry/</link>
+            <link>https://skyflya.github.io/2021/11/01/6JN9JxpnRSjVeWry/</link>
             <category>性能优化</category>
             <pubDate>Mon, 01 Nov 2021 04:48:51 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;线程调度&#34;&gt;线程调度&lt;a title=&#34;#线程调度&#34; href=&#34;#线程调度&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -3258,9 +3258,9 @@ JVM负责线程调度：按照特定调度模型分配CPU使用权&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/9LsQhIFgDkllFt0Q/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/9LsQhIFgDkllFt0Q/</guid>
             <title>安卓优化 - 包体积</title>
-            <link>https://onion99.github.io/2021/11/01/9LsQhIFgDkllFt0Q/</link>
+            <link>https://skyflya.github.io/2021/11/01/9LsQhIFgDkllFt0Q/</link>
             <category>性能优化</category>
             <pubDate>Mon, 01 Nov 2021 04:48:08 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/1425318&#34; target=&#34;_blank&#34;&gt;Android APP 终极瘦身指南&lt;/a&gt;&lt;/p&gt;
@@ -3277,9 +3277,9 @@ JVM负责线程调度：按照特定调度模型分配CPU使用权&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/UYa5EEntsM9sKTYz/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/UYa5EEntsM9sKTYz/</guid>
             <title>安卓优化 - 卡顿优化</title>
-            <link>https://onion99.github.io/2021/11/01/UYa5EEntsM9sKTYz/</link>
+            <link>https://skyflya.github.io/2021/11/01/UYa5EEntsM9sKTYz/</link>
             <category>性能优化</category>
             <pubDate>Mon, 01 Nov 2021 04:47:12 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -3333,9 +3333,9 @@ JVM负责线程调度：按照特定调度模型分配CPU使用权&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/T8ghe13OAeLx6NBP/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/T8ghe13OAeLx6NBP/</guid>
             <title>安卓优化 - 内存优化</title>
-            <link>https://onion99.github.io/2021/11/01/T8ghe13OAeLx6NBP/</link>
+            <link>https://skyflya.github.io/2021/11/01/T8ghe13OAeLx6NBP/</link>
             <category>性能优化</category>
             <pubDate>Mon, 01 Nov 2021 04:46:21 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;内存信息查看&#34;&gt;内存信息查看&lt;a title=&#34;#内存信息查看&#34; href=&#34;#内存信息查看&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -3383,9 +3383,9 @@ JVM负责线程调度：按照特定调度模型分配CPU使用权&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onion99.github.io/2021/11/01/4LlbPfdOOCp58LMK/</guid>
+            <guid isPermalink="true">https://skyflya.github.io/2021/11/01/4LlbPfdOOCp58LMK/</guid>
             <title>安卓优化 - 启动优化</title>
-            <link>https://onion99.github.io/2021/11/01/4LlbPfdOOCp58LMK/</link>
+            <link>https://skyflya.github.io/2021/11/01/4LlbPfdOOCp58LMK/</link>
             <category>性能优化</category>
             <pubDate>Mon, 01 Nov 2021 04:43:04 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;启动流程&#34;&gt;启动流程&lt;a title=&#34;#启动流程&#34; href=&#34;#启动流程&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
