@@ -9,9 +9,9 @@ date: 2020-02-17 00:00:00
 
 90 后宅男，坐标广州。
 
-主攻 Android 开发，~~面向谷歌/Stack OverFlow/技术文档~~能编写 RN、Flutter 项目。
+主攻 CocosCreator 游戏开发，~~面向游戏大作~~编写部分插件与工具 。
 
-懂得抓包,拆包,刷机,逆向,虽行但菜,日常沉迷于工作和学习,和看大佬吹水中。
+懂得修改部分引擎源码，div小工具，日常喜欢在论坛和大佬吹水。
 
 
 **我是...**
@@ -30,9 +30,9 @@ date: 2020-02-17 00:00:00
   <p style="line-height:10px"> </p>
 </details>
 <details style="padding-left:12px;padding-bottom:10px">
-  <summary>技术追求小能手</summary>
-  <p style="font-size:12px; line-height:13px"> 🤗 Flutter就是比RN强</p>
-  <p style="font-size:12px; line-height:13px"> 😏 kotlin better than java</p>
+  <summary>ACGN爱好者</summary>
+  <p style="font-size:12px; line-height:13px"> 🤗 白毛萝莉控</p>
+  <p style="font-size:12px; line-height:13px"> 😏 电击文库探险家</p>
 </details>
 <details style="padding-left:12px;padding-bottom:10px">
   <summary>云玩家</summary>
