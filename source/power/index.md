@@ -6,6 +6,13 @@ date: 2020-02-18 00:00:00
 
 ![bGSALn.png](https://s4.ax1x.com/2022/03/02/bGSALn.png)
 
+### CoCosCreator 官方示例
+[translationTool: 手把手教你制一个CoCos的翻译插件。](hhttps://mp.weixin.qq.com/s/pctCjW-FIfVg50teLlXPFA)
+
+[YHMultiU: 最简单粗暴的《DrawCall优化方案》](https://forum.cocos.org/t/topic/134846)
+
+[DrawCallOptimize: CocosCreator性能优化：DrawCall（全面！）](https://forum.cocos.org/t/topic/95043)
+
 ### 极客时间
 
 [极客资料](https://d.shikey.com/jike/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4%E5%B7%B2%E5%AE%8C%E7%BB%93/51%20Android%E5%BC%80%E5%8F%91%E9%AB%98%E6%89%8B%E8%AF%BE/pdf/)
