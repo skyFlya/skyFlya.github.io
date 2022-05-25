@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Stay hungry , Stay foolish • Posts by &#34;cocoscreator&#34; category</title>
+        <link>https://skyFlya.github.io</link>
+        <description>巴拉巴拉</description>
+        <language>zh-Hans</language>
+        <pubDate>Wed, 25 May 2022 23:39:16 +0800</pubDate>
+        <lastBuildDate>Wed, 25 May 2022 23:39:16 +0800</lastBuildDate>
+        <category>CoCosCreator</category>
+        <category>UI组件</category>
+        <category>Android</category>
+        <category>JS</category>
+        <category>工具类</category>
+        <item>
+            <guid isPermalink="true">https://skyflya.github.io/2022/05/25/Tmczkc3HqflAOpLK/</guid>
+            <title>如何在 VideoPlayer 上面放置 UI 控件</title>
+            <link>https://skyflya.github.io/2022/05/25/Tmczkc3HqflAOpLK/</link>
+            <category>CoCosCreator</category>
+            <category>UI组件</category>
+            <pubDate>Wed, 25 May 2022 23:39:16 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;CoCos中在视频层上方放置ui&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;p&gt;最近使用Cocos Creator开发项目，有个需求是在视频上面添加按钮交互。由于视频调用的是系统原生控件，并且层级放置在了Cocos引擎层级之上，没有和游戏一起混合渲染，所以单纯在cocos这边改动 zIndex是没有效果的，必须要和对应平台打交道了。&lt;/p&gt;
+&lt;h1 id=&#34;为了实现视频上面放置ui，大概有三种思路：&#34;&gt;为了实现视频上面放置UI，大概有三种思路：&lt;a title=&#34;#为了实现视频上面放置ui，大概有三种思路：&#34; href=&#34;#为了实现视频上面放置ui，大概有三种思路：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;1.将视频层级放到cocos层级之下，这样cocos的UI就可以显示在视频之上了。&lt;br&gt;
+2.需要放置到视频层级上的UI不使用cocos内置控件，调用对应平台控件放置在视频控件之上。&lt;br&gt;
+3.获取视频数据，渲染到cocos控件上。&lt;/p&gt;
+&lt;p&gt;第1、2种方式实现的最终效果一致。缺点是视频和cocos是分层显示的，所以视频只能放置在cocos控件的最下层。&lt;br&gt;
+第三种方式可以自由调整视频层级，但我还没有实现细节的思路，不做探讨。本文基于 Cocos Creator 2.0.7，其他版本引擎运行效果需自行测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我选择用第一种方式，简单粗暴&lt;/strong&gt;&lt;br&gt;
+首先要做的是把屏幕背景色设为透明，这一步骤在iOS、Android、Web上都需要做。&lt;br&gt;
+打开Creator把场景挂载的 Camera 组件上的 backgroundColor 的R、G、B、A全部设为 0 ，用于清除背景色。&lt;br&gt;
+然后在各个平台上调整视频层级到引擎层级下面。&lt;/p&gt;
+&lt;h1 id=&#34;ios端：&#34;&gt;iOS端：&lt;a title=&#34;#ios端：&#34; href=&#34;#ios端：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;// 先添加videoView再添加cocosView&lt;br&gt;
+UIViewController* rvC = [[UIViewController alloc]init];&lt;br&gt;
+// 视频view&lt;br&gt;
+UIView *videoView = [[UIView alloc] initWithFrame:bounds];&lt;br&gt;
+videoView.tag = 10; // 通过tag找到view&lt;br&gt;
+[rvC.view addSubview:videoView];&lt;br&gt;
+// 引擎view&lt;br&gt;
+UIView *cocosView = _viewController.view;&lt;br&gt;
+cocosView.frame = bounds;//&lt;br&gt;
+cocosView.backgroundColor = [UIColor clearColor];&lt;br&gt;
+[rvC.view addSubview:cocosView];&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Set RootViewController to window
+if ( [[UIDevice currentDevice].systemVersion floatValue] &amp;lt; 6.0)
+&amp;#123;
+    // warning: addSubView doesn&#39;t work on iOS6
+     [window addSubview: rvC.view]; //新的rootView
+&amp;#125;
+else
+&amp;#123;
+    // use this method on ios6
+    [window setRootViewController:rvC]; //新的rootView
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;具体如图：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XFzwqg.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+接着修改VideoPlayer的默认层级。在引擎文件 &lt;a href=&#34;http://VideoPlayer-ios.mm&#34;&gt;VideoPlayer-ios.mm&lt;/a&gt; 中找到[eaglviewaddSubview:self.moviePlayer.view]; 方法，注释掉添加到默认层级的代码。通过tag找到我们之前新建的视频view，并添加视频到上面。加入如下代码：&lt;br&gt;
+[[[eaglview superview] viewWithTag:10] addSubview:self.moviePlayer.view]; // 添加到上层view&lt;br&gt;
+这里还要改一下颜色格式，要不然视频还是会被黑色背景遮住。在引擎文件  &lt;a href=&#34;http://CCApplication-ios.mm&#34;&gt;CCApplication-ios.mm&lt;/a&gt; 中找到 onCreateView 方法，我们看到引擎默认像素格式是  RGB565 。注释掉原来代码，把这里改为支持透明度的 RGBA8 格式。RGB565这种格式是不支持透明度的，所以即使我们把 UIView设为透明，视频依然被黑色背景遮住。&lt;/p&gt;
+&lt;h1 id=&#34;android端：&#34;&gt;Android端：&lt;a title=&#34;#android端：&#34; href=&#34;#android端：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;首先取消视频置顶。找到 Cocos2dxVideoHelper.java 文件，注释掉 setZOrderOnTop 方法。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XFzWsU.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+紧接着，我们设置像素格式。在Android原生工程中，找到 AppActivity.java 文件，在 onCreateView 方法中添加设置 glSurfaceView 透明代码：(需要保证opengl的Config中有配置alpha通道)&lt;br&gt;
+Cocos2dxGLSurfaceView glSurfaceView = new Cocos2dxGLSurfaceView(this);&lt;br&gt;
+//通常,为了使它与绘图树整合,这意味着它所在的窗口的其他内容都不可见，所以接下来我们需要设置surfaceView透明来使其他内容可见&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    glSurfaceView.setEGLConfigChooser(8, 8, 8, 8, 16, 8);	  //修改GLSurfaceView参数，其中第四个参数为AlphaSize，这样修改以后View就变透明了
+    glSurfaceView.getHolder().setFormat(PixelFormat.RGBA_8888);  //RGBA_8888为android的一种32位颜色格式，R,G,B,A分别用八位表示，Android默认格式是PixelFormat.OPAQUE，其是不带Alpha值的。
+    
+    //控制这个surfaceView是否被放在另一个普通的surfaceView上面（但是仍然在窗口之后）。这个函数通常被用来将覆盖层至于一个多媒体层上面。
+    //这个函数必须在窗口被添加到窗口管理器之前设置。
+    //调用这个函数会使之前调用的setZOrderOnTop(boolean)无效。
+    glSurfaceView.setZOrderMediaOverlay(true);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkSCWt.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+这时候视频已经可以显示在下方了，但是，如果视频上方有 cocos 按钮依然不可点击的，我们还需要向下传递事件。找到引擎目录下的  Cocos2dxVideoView.java  文件，重写 onTouchEvent方法，返回false 。这样视频上方的cocos ui就可以响应触摸事件了。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkSwSx.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;web端：&#34;&gt;Web端：&lt;a title=&#34;#web端：&#34; href=&#34;#web端：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;和Android、iOS一样，首先是调整视频层级到最下层。找到 js引擎 目录下的 video-player-impl.js 文件，在 _createDom 方法中添加修改视频层级代码：&lt;br&gt;
+// 调整视频层级到最下层&lt;br&gt;
+video.style.zIndex = -1;&lt;br&gt;
+修改代码后还需要编译一下 js引擎 到engine目录下执行一下 gulp build 构建成功后，才能使修改的代码生效。&lt;br&gt;
+如果不想重新编译引擎，可以直接找到 js引擎 bin 文件夹下的 cocos2d-js-for-preview.js 文件搜索_createDom 方法中添加以上代码。&lt;br&gt;
+最后我们需要Canvas 背景是透明的，这样才能看到下层的视频。如果是开发时在网页上预览，需要修改Cocos Creator安装目录下， 找到preview-templates 文件夹下的 boot.js 文件，在 cc.game.run 之前加上如下代码：&lt;br&gt;
+// 开启支持全透明&lt;br&gt;
+cc.macro.ENABLE_TRANSPARENT_CANVAS = true;&lt;br&gt;
+如果是打web包，则在 main.js 文件中的 cc.game.run 代码之前加入以上代码。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://skyflya.github.io/2022/05/25/mK3j7ZNSzWeqzUeI/</guid>
+            <title>Cocos和Android对接文档</title>
+            <link>https://skyflya.github.io/2022/05/25/mK3j7ZNSzWeqzUeI/</link>
+            <category>CoCosCreator</category>
+            <category>Android</category>
+            <pubDate>Wed, 25 May 2022 23:39:13 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;CoCos构建后利用Android Studio发布apk包流程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h1 id=&#34;一、构建apk安装包&#34;&gt;一、构建apk安装包&lt;a title=&#34;#一、构建apk安装包&#34; href=&#34;#一、构建apk安装包&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;1.下载安装Android Studio开发环境，拉取对应的Android项目代码，切换到指定Git分支。&lt;br&gt;
+2.构建Cocos Creator项目，将构建完成的【assets、jsb-adapter、src、main.js、project.json】（一般是在Cocos项目【build/jsb-default】目录中）复制到Android项目的【game/src/main/assets】目录。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkCB60.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkC67F.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkCRh9.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+3.构建apk安装包前，先点击Android Studio右上角的【Sync Project With Gradle Files】，再点击Android Studio工具栏的【Build – Clean Project】，等编译完成后，点击Android Studio右侧【Gradle – BoomBoom – app – Task – channel】中的【channelDebug】或者【channelRelease】构建【测试】或者【正式】apk安装包，构建完成的apk文件在Android项目下的【app/channel/debug(releases)】中。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkCLhd.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkPSnf.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkPPAg.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+4.如果需要真机运行代码，需要用USB连接线插入手机到电脑，打开手机的开发者选项，开启USB调试，点击Android Studio的【Run ‘app’】即可运行到手机。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2022/05/25/XkPFhj.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://skyflya.github.io/2022/05/23/Ca1AaW7p1PQIV0tF/</guid>
+            <title>Cocos 热更新简介、原理、流程、案例</title>
+            <link>https://skyflya.github.io/2022/05/23/Ca1AaW7p1PQIV0tF/</link>
+            <category>CoCosCreator</category>
+            <pubDate>Mon, 23 May 2022 21:03:16 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;Cocos 热更新介绍&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h1 id=&#34;简介：&#34;&gt;简介：&lt;a title=&#34;#简介：&#34; href=&#34;#简介：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;资源热更新是为游戏运行时动态更新资源而设计的，这里的资源可以是图片，音频甚至游戏逻辑。在游戏漫长的运营维护过程中，你将可以上传新的资源到你的服务器，让你的游戏跟踪远程服务器上的修改，自动下载新的资源到用户的设备上。就这样，全新的设计，新的游玩体验甚至全新的游戏内容都将立刻被推送到你的用户手上。重要的是，你不需要针对各个渠道去重新打包你的应用并经历痛苦的应用更新审核！&lt;/p&gt;
+&lt;h1 id=&#34;原理：&#34;&gt;原理：&lt;a title=&#34;#原理：&#34; href=&#34;#原理：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;热更新机制本质上是从服务器下载需要的资源到本地，并且可以执行新的游戏逻辑，让新资源可以被游戏所使用。&lt;br&gt;
+       Cocos 默认的热更新机制并不是基于补丁包更新的机制，传统的热更新经常对多个版本之间分别生成补丁包，按顺序下载补丁包并更新到最新版本。Cocos 的热更新机制通过直接比较最新版本和本地版本的差异来生成差异列表并更新。这样即可天然支持跨版本更新，比如本地版本为 A，远程版本是 C，则直接更新 A 和 C 之间的差异，并不需要生成 A 到 B 和 B 到 C 的更新包，依次更新。所以，在这种设计思路下，新版本的文件以离散的方式保存在服务端，更新时以文件为单位下载。&lt;/p&gt;
+&lt;h1 id=&#34;热更新基本流程：&#34;&gt;热更新基本流程：&lt;a title=&#34;#热更新基本流程：&#34; href=&#34;#热更新基本流程：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/05/24/XC8EU1.png&#34; alt=&#34;bWKCWV.png&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;包内资源、本地缓存资源和临时资源：&#34;&gt;包内资源、本地缓存资源和临时资源：&lt;a title=&#34;#包内资源、本地缓存资源和临时资源：&#34; href=&#34;#包内资源、本地缓存资源和临时资源：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;在开发者的游戏安装到用户的手机上时，它的游戏是以 .ipa（iOS）或者 .apk（Android）形式存在的，这种应用包在安装后，它的内容是无法被修改或者添加的，应用包内的任何资源都会一直存在。所以热更新机制中，我们只能更新本地缓存到手机的可写目录下（应用存储空间或者 SD 卡指定目录），并通过 FileUtils 的搜索路径机制完成本地缓存对包内资源的覆盖。同时为了保障更新的可靠性，我们在更新过程中会首先将新版本资源放到一个临时文件夹中，只有当本次更新正常完成，才会替换到本地缓存文件夹内。如果中途中断更新或者更新失败，此时的失败版本都不会污染现有的本地缓存。&lt;br&gt;
+&lt;strong&gt;注意：大版本的更新的情况下（1.0.4-&amp;gt;1.0.5），记得把临时文件夹清空（确保大版本的包体里面所带的manifest文件为最新，否则会用回之前热更新manifes文件）。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;断点续传:&#34;&gt;断点续传:&lt;a title=&#34;#断点续传:&#34; href=&#34;#断点续传:&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;在中断之后，再次启动热更新流程时，会去检查临时文件夹中是否有未完成的更新，校验版本是否和远程匹配后，则直接使用临时文件夹中的 Manifest 作为 Remote Manifest 继续更新。此时，对于下载状态为已完成的，不会重新下载，对于下载中的文件，会尝试发送续传请求给服务器（服务器需要支持 Accept-Ranges，否则从头开始下载）。&lt;/p&gt;
+&lt;h1 id=&#34;manifest-格式：&#34;&gt;Manifest 格式：&lt;a title=&#34;#manifest-格式：&#34; href=&#34;#manifest-格式：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Manifest 格式是我们用来比较本地和远程资源差异的一种 json 格式，其中保存了主版本信息、引擎版本信息、资源列表及资源信息等：&lt;br&gt;
+{&lt;br&gt;
+“packageUrl” :          远程资源的本地缓存根路径&lt;br&gt;
+“remoteVersionUrl” :    [可选项] 远程版本文件的路径，用来判断服务器端是否有新版本的资源&lt;br&gt;
+“remoteManifestUrl” :   远程资源 Manifest 文件的路径，包含版本信息以及所有资源信息&lt;br&gt;
+“version” :             资源的版本&lt;br&gt;
+“engineVersion” :       引擎版本&lt;br&gt;
+“assets” :              所有资源列表&lt;br&gt;
+“key” :             资源的相对路径（相对于资源根目录）&lt;br&gt;
+“md5” :             md5 值代表资源文件的版本信息&lt;br&gt;
+“compressed” :      [可选项] 如果值为 true，文件被下载后会自动被解压，目前仅支持 zip 压缩格式&lt;br&gt;
+“size” :            [可选项] 文件的字节尺寸，用于快速获取进度信息&lt;br&gt;
+“searchPaths” :         需要添加到 FileUtils 中的搜索路径列表&lt;br&gt;
+}&lt;br&gt;
+主要我们用到的是：version.manifest和project.manifest&lt;br&gt;
+version.manifest:用来做版本对比&lt;br&gt;
+project.manifest：下载链接和文件类型及数据&lt;/p&gt;
+&lt;h1 id=&#34;控制并发：&#34;&gt;控制并发：&lt;a title=&#34;#控制并发：&#34; href=&#34;#控制并发：&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Cocos Creator v1.4 和 Cocos2d-x v3.15 开始，热更新管理器添加了控制下载并发数量的 API，使用方式如下：&lt;br&gt;
+assetsManager.setMaxConcurrentTask(10);&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
