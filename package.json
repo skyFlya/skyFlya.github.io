@@ -31,6 +31,6 @@
     "live2d-widget-model-wanko": "^1.0.5"
   },
   "devDependencies": {
-    "hexo-feed": "^1.1.0"
+    "hexo-feed": "^1.1.1"
   }
 }
