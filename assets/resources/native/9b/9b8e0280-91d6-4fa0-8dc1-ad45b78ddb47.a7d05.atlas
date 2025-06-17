@@ -1,0 +1,48 @@
+
+guodu.png
+size: 1891,724
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11
+  rotate: false
+  xy: 0, 363
+  size: 629, 361
+  orig: 629, 361
+  offset: 0, 0
+  index: -1
+22
+  rotate: false
+  xy: 0, 0
+  size: 629, 361
+  orig: 629, 361
+  offset: 0, 0
+  index: -1
+33
+  rotate: false
+  xy: 631, 363
+  size: 629, 361
+  orig: 629, 361
+  offset: 0, 0
+  index: -1
+44
+  rotate: false
+  xy: 631, 0
+  size: 629, 361
+  orig: 629, 361
+  offset: 0, 0
+  index: -1
+55
+  rotate: false
+  xy: 1262, 363
+  size: 629, 361
+  orig: 629, 361
+  offset: 0, 0
+  index: -1
+66
+  rotate: false
+  xy: 1262, 0
+  size: 629, 361
+  orig: 629, 361
+  offset: 0, 0
+  index: -1
